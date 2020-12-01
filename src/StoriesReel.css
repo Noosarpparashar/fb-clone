@@ -1,0 +1,15 @@
+.storyReel{
+    display:flex;   
+    background-color: lawngreen;
+    padding-bottom: 5px;
+    justify-content: center;     
+    margin:10%;
+    
+    
+ 
+    }
+
+.reels{
+    
+    width:100%
+}

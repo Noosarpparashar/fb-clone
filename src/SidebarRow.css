@@ -1,0 +1,27 @@
+.sidebar1{
+    cursor:pointer;
+    display:flex;
+    padding:20px;
+    margin-inline-start: 15px;
+    
+    align-items:center;
+    
+}
+
+.sidebar1:hover{
+    background-color: grey;
+    border-radius: 10px;
+    max-width: fit-content;
+    transform: scale(1.1);
+    
+    
+    
+    
+}
+.sidebar1>h3{
+    margin-left: 30px;
+}
+
+.sidebar1 >.MuiSvgIcon-root {
+    color:blue;
+}

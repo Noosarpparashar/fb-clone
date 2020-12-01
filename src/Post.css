@@ -1,0 +1,18 @@
+.posts{
+width: 80%;
+background-color: rgb(136, 136, 146);
+margin:10%
+}
+.postsTop{
+    display:flex;
+}
+.post__options{
+    display:flex;
+    justify-content: space-evenly;
+    padding:5px;
+    flex:1;
+}
+.post__option{
+    cursor: pointer;
+    
+}

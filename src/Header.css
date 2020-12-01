@@ -1,0 +1,180 @@
+.header{
+    display:flex;
+    width:100%;
+    position:sticky;
+    z-index: 100;
+    top:0;
+    box-shadow: 0px 5px 8px  #888888;
+    
+    
+}
+
+.header__left{
+    width:20%;
+    background-color: blue;
+    display:flex;
+    justify-content: space-evenly;
+    align-content: center;
+    
+}
+
+
+
+.header__left>img{
+    height:50px;
+    margin-top:60px;
+    cursor: pointer;
+}
+
+.header__input{
+
+    display:flex;
+    margin-top:80px;
+    background-color: blue;
+    border-radius: 25px;
+    margin-bottom: 29px;
+    border:2
+    
+}
+
+
+.header__input:hover{
+    transform:scale(2.2,3.2);
+}
+
+.searchIcon {
+ background-color:transparent;
+ width:20px
+   
+ 
+}
+
+.header__input>input{
+    height:23px;
+    border:none;
+    background-color: transparent;
+ 
+}
+
+.header__middle{
+    width:55%;
+    background-color: hotpink;
+    display:flex;
+    justify-content: space-evenly;
+    }
+
+.header__middle *{
+    margin-top: 40px;
+    height: min-content;
+    cursor: pointer;
+    
+    
+    
+    
+    
+}
+
+.header__middle:hover *{
+    
+    
+    
+}
+
+.home{
+    
+
+    
+}
+.home:hover{
+    color: thistle;
+    transform: scale(1.2);
+    border-bottom: 4px solid blue;
+    
+    
+    
+    
+}
+.watch{
+
+}
+.watch:hover{
+    color: thistle;
+    transform: scale(1.2);
+    border-bottom: 4px solid blue;
+
+}
+
+.marketplace{
+
+}
+.marketplace:hover{
+    color: thistle;
+    transform: scale(1.2);
+    border-bottom: 4px solid blue;
+
+}
+.groups:hover{
+    color: thistle;
+    transform: scale(1.2);
+    border-bottom: 4px solid blue;
+}
+.gaming{
+    margin-right: 25px;
+
+}
+.gaming:hover{
+    color: thistle;
+    transform: scale(1.2);
+    border-bottom: 4px solid blue;
+}
+
+.header__right{
+    width:25%;
+    background-color: wheat;
+    display:flex;
+    justify-content: space-between;
+
+}
+
+
+.header__right *{
+    margin-top: 40px;
+    height: min-content;
+    cursor: pointer;
+    size:28px;
+    font-size: medium;
+
+}
+
+
+
+.add{
+    
+    margin-inline-start: 120px;
+    font-size: 14px;
+    }
+.add:hover{
+    transform: scale(1.2);
+    color: thistle;
+    border-bottom: 4px solid blue;
+}
+.chat:hover{
+    transform: scale(1.2);
+    color: thistle;
+    border-bottom: 4px solid blue;
+
+}
+.notification:hover{
+    transform: scale(1.2);
+    color: thistle;
+    border-bottom: 4px solid blue;
+}
+.drop{
+    margin-inline-end: 20px;
+}
+.drop:hover{
+    transform: scale(1.2);
+    color: thistle;
+    border-bottom: 4px solid blue;
+}
+

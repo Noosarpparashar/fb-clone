@@ -1,0 +1,35 @@
+.statusStory{
+    display:flex;   
+    background-position: center;
+}
+
+
+.statusStory>h4{
+    position: absolute;
+    bottom:10%;
+    left:3%
+}
+.story{
+    
+    border-radius: 25px;
+    
+    position:relative;
+    box-shadow:0px 5px 17px -7px rgba(0,0,0,0.75);
+    flex: 1;
+    display: block;
+    margin-left: 3%;
+    margin-right: 3%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-height:200px;
+    background-position: center;
+    
+    
+    
+    
+}
+
+.story:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}

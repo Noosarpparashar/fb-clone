@@ -1,0 +1,76 @@
+
+.status_top{   
+    display:flex;
+    width:100%;
+
+}
+
+.status_avatar{
+    
+    background-color: mediumseagreen;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+.statusForm{
+    width:90%
+}
+
+.statusForm >Button{
+    display: none;
+}
+.post{
+    
+    border-radius: 999
+    px;   
+    border:none;
+    background-color: rgb(202, 212, 221);
+    width:90%;
+    margin-left: 5%;
+    margin-right:2%;
+    margin-top: 2%;
+    height:35px;
+    
+    
+    
+}
+
+.status_bottom{
+    display:flex;
+    margin-top: 3%;
+    justify-content: space-evenly;
+    
+}
+.one{
+    display:flex;  
+}
+
+.one:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+.two{
+    display:flex;
+}
+.two:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+.three{
+    display:flex;
+}
+.three:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+.addPhotos{
+    color: mediumorchid;
+    
+  
+}
+.addLiveVideo{
+    color:red
+}
+.addEmojii{
+    color:blue
+}

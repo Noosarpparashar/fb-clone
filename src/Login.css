@@ -1,0 +1,35 @@
+.login__logo> img{
+    
+    height: 60px;
+    align-content: center;
+    
+}
+.login__logo{
+    display:flex;
+    flex-direction: column;
+    background-color: burlywood;
+
+    
+    
+}
+
+.Login{
+    display:grid;
+    place-items: center;
+    height:100vh;
+}
+
+.logoName{
+   width :200%; 
+   height:150%;
+   margin-top: 15%;
+}
+
+.logoImage{
+    height:120%;
+    margin-left:40%;
+}
+.Login > button{
+    width:300px;
+    font-weight: 800;
+}
